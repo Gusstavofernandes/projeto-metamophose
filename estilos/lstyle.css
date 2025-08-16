@@ -29,11 +29,14 @@ main{
     margin-top: 2em;
     width: 90vw;
     border-radius: 10px 10px 10px 10px;
+    width: 300px;
+    height: 300px;
 }
 main p{
     margin: auto;
     text-align: center;
     display: inline-block;
+    margin-left: 6px;
 }
 main a{
     text-decoration: none;
@@ -41,7 +44,8 @@ main a{
     margin: auto;
     color: white;
     background-color: rgb(0, 0, 0);
-    padding: 4px;
+    padding: 3px;
+    margin: 7px;
     border-radius: 5px 5px 5px 5px;
 }
 main > section > p > a{
