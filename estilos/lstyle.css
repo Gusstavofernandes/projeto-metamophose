@@ -23,7 +23,8 @@ i#burguer{
     cursor: pointer;
 }
 main{
-    background-color: lightgrey;
+    position: relative;
+    background-color: rgb(245, 245, 245);
     padding: 20px;
     margin: auto;
     margin-top: 2em;

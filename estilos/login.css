@@ -25,9 +25,12 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 400px;
+    height: 500px;
     border-radius: 20px;
     overflow: hidden;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem{
     background: lightgray url(../imagens/pexels-cottonbro-6069955.jpg) no-repeat;
