@@ -45,6 +45,20 @@ section#login > div#formulario{
 div.campo > label{
     display: none;
 }
+div.campo > i{
+    color: white;
+    font-size: 2em;
+    width: 30px;
+}
+div.campo > input{
+    font-size: 1em;
+    height: 98%;
+    transform: translateY(-02px);
+    width: calc(100% - 29px);
+    border: 0px;
+    border-radius: 10px;
+    padding: 4px;
+}
 div#formulario > h1{
 text-align: center;
 margin-bottom: 10px;
