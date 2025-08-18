@@ -53,11 +53,11 @@ div.campo > i{
 div.campo > input{
     font-size: 1em;
     height: 98%;
-    transform: translateY(-02px);
-    width: calc(100% - 29px);
+    width: calc(100% - 30px);
     border: 0px;
     border-radius: 10px;
     padding: 4px;
+    transform: translateY(-4px);
 }
 div#formulario > h1{
 text-align: center;
@@ -70,6 +70,7 @@ form > div.campo{
     height: 30px;
     background-color: rgb(126, 121, 121);
     border-radius: 10px;
+    border: 2px solid rgb(126, 121, 121) ;
     margin: 5px 0px;
 
 }
