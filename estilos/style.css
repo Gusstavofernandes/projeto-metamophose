@@ -40,9 +40,7 @@ menu > ul > li > a:hover{
     color: rgb(241, 238, 238);
 }
 main{
-    width: 90vw;
-    margin: auto;
-    margin-top: 10px;
+    width: 100vw;
     padding: 10px;
 }
 article{
@@ -57,4 +55,5 @@ footer{
     color: white;
     text-align: center;
     padding: 20px;
+    margin: 0px;
 }
