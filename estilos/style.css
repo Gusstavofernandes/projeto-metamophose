@@ -81,9 +81,10 @@ footer{
     padding-top: 3px;
     position: relative;
     background: lightgray url(../imagens/grupo-de-pessoas-que-se-exercitam-juntas-ao-ar-livre.jpg) no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: top center;
     width: 98vw;
-    height: 800px;
+    height: 500px;
     margin: auto;
     overflow: hidden;
     }
@@ -148,6 +149,41 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     overflow: hidden;
-
     }
+    div#texto > h1{
+        text-align: center;
+        color: rgb(10, 10, 10);
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;;
+    }
+    div#texto > p{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 0, 0);
+        font-size: larger;
+        padding: 10px;
+    }
+    div#texto >div#button{
+        width: 20%;
+        height: 60px;
+        margin: auto;
+    }
+    div#texto > div#button > a{
+    background-color:black;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    font-family: "Passion One",sans-serif;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 5px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 7px;
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    }
+
 }

@@ -119,4 +119,7 @@
     font-size: medium;
     overflow: hidden;
     }
+    div#texto{
+        display: none;
+    }
 }
