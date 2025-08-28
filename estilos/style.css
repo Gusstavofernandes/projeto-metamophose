@@ -64,7 +64,17 @@ footer{
     text-align: center;
     padding: 20px;
     margin: 0px;
+    text-decoration: none;
 }
+footer a:visited{
+    background-color: rgb(5, 5, 5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    text-decoration: none;
+}
+
     div.main{
     display: inline-flexbox;
     margin: 0px;
@@ -150,26 +160,26 @@ footer{
     font-size: medium;
     overflow: hidden;
     }
-    div#texto > h1{
+    div.texto > h1{
         text-align: center;
         color: rgb(10, 10, 10);
         font-family: "Passion One", sans-serif;
         font-weight: 400;
         font-style: normal;;
     }
-    div#texto > p{
+    div.texto > p{
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
         color: rgb(0, 0, 0);
         font-size: larger;
         padding: 10px;
     }
-    div#texto >div#button{
+    div.texto >div.button{
         width: 20%;
         height: 60px;
         margin: auto;
     }
-    div#texto > div#button > a{
+    div.texto > div.button > a{
     background-color:black;
     display: block;
     text-align: center;
@@ -185,5 +195,39 @@ footer{
     text-decoration: none;
     color: rgb(255, 251, 251);
     }
+    div.container{
+        display: flex;
+        height: 100px;
+        justify-content: space-evenly;
+        background-color: aqua;
 
+    }
+    div.item#img1{
+        background-image: url(../imagens/skate-parkadolescentes-no-skate-park.jpg);
+        background-color: aquamarine;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 680px;
+        justify-content: center;
+        background-position: center center;
+    }
+    div.item#img2{
+        display: none;
+    }
+    div.item#img3{
+        display: none;
+    }
+    div.texto#texto2{
+        margin-top: 580px;
+        display: block;
+    }
+    div.texto#texto2 >h1{
+        margin: auto;
+        text-align: center;
+    }
+        div.texto#texto2 >p{
+        margin: auto;
+        text-align: center;
+    }
 }

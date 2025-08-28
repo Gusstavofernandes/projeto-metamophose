@@ -122,4 +122,11 @@
     div#texto{
         display: none;
     }
+    div.container{
+        display: flex;
+        padding: 10px;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+    
 }
