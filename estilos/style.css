@@ -61,19 +61,21 @@ article p{
 footer{
     background-color: rgb(5, 5, 5);
     color: white;
-    text-align: center;
     padding: 20px;
+    text-align: center;
     margin: 0px;
     text-decoration: none;
 }
 footer a:visited{
     background-color: rgb(5, 5, 5);
     color: white;
-    text-align: center;
     padding: 20px;
+    text-align: center;
     margin: 0px;
     text-decoration: none;
 }
+
+
 
     div.main{
     display: inline-flexbox;
@@ -219,7 +221,7 @@ footer a:visited{
         display: none;
     }
     div.texto#texto2{
-        margin-top: 580px;
+        margin-top: 585px;
         display: block;
     }
     div.texto#texto2 >h1{
