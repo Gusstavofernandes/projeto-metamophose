@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/midia-query.css">
+    <link rel="stylesheet" href="estilos/styleab.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Metamorphose Store</h1>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Oversized</a></li>
+                <li><a href="#">Bermudas</a></li>
+                <li><a href="calcados.html">Calçados</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="conta.html">Conta</a></li>
+            </ul>
+        </menu>
+        <div class="men">
+            <p>TESTE</p>
+        </div>
+    </header>
+    <main>
+        <div class="caminho">
+            <p><a href="index.html">Pagina inicial</a> / Calçados</p>
+        </div>
+        <div>
+            <div class="compra">
+                <img src="imagens/10017535.jpg" alt="" srcset="">
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display =='block') {
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+                }
+
+        }
+        function mudouTamanho(){
+            if (window.innerWidth >=992){
+                itens.style.display ='block'
+            } else{
+                itens.style.display = 'none'
+            }
+            
+        }
+    </script>
+</body>
+</html>

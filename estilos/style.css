@@ -2,11 +2,11 @@
 
 @media screen and (max-width:992px)
 {
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
 header{
     background-color: rgb(12, 12, 12);
     color: white;
@@ -74,6 +74,11 @@ footer a:visited{
     margin: 0px;
     text-decoration: none;
 }
+footer span.community{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
 
 
 
@@ -95,7 +100,7 @@ footer a:visited{
     background: lightgray url(../imagens/grupo-de-pessoas-que-se-exercitam-juntas-ao-ar-livre.jpg) no-repeat;
     background-size: cover;
     background-position: top center;
-    width: 98vw;
+    width: 96vw;
     height: 500px;
     margin: auto;
     overflow: hidden;
@@ -148,16 +153,17 @@ footer a:visited{
     
     div.men{
     justify-content: center;
-    width: 98vw;
+    width: 96vw;
     display: inline-flexbox;
-    padding-top: 3px;
+    padding-top: 9px;
     color: white;
     background-color: rgb(12, 12, 12);
     height: 30px;
     text-align: center;
+    padding-bottom: 9px;
     }
     div.men > p{
-    margin: 5px;
+        margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     overflow: hidden;
@@ -201,15 +207,15 @@ footer a:visited{
         display: flex;
         height: 100px;
         justify-content: space-evenly;
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
 
     }
     div.item#img1{
         background-image: url(../imagens/skate-parkadolescentes-no-skate-park.jpg);
-        background-color: aquamarine;
+        background-color: rgb(255, 255, 255);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100vw;
+        width: 96vw;
         height: 680px;
         justify-content: center;
         background-position: center center;
