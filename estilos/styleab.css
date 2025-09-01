@@ -145,20 +145,17 @@ menu > ul > li > a:hover{
     }
     div.compra {
         display: inline-block;
-        background-color: blue;
         width: 98%;
         height: 400px;
     }
     div.compra >  div > img {
         width: 49%;
         display:inline-block;
-        background-color: blue;
         height:60% ;
     }
     img#1i{
         width: 68%;
         display:inline-block;
-        background-color: blue;
         height:60% ;
     }
     div.compra > div > p {
