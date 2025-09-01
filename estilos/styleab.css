@@ -14,7 +14,6 @@ menu > ul > li > a{
     @media screen and (max-width:992px)
     {
     *{
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
     }
@@ -111,12 +110,15 @@ menu > ul > li > a:hover{
     overflow: hidden;
     }
     div.caminho > p{
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
         padding-top: 10px;
-        background-color: white;
+        padding-right: 0px;
+        margin-right: 0px;
         color: rgb(121, 121, 121);
     }
     div.caminho   p > a{
-
+        font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
         color: black;
 
@@ -141,10 +143,19 @@ menu > ul > li > a:hover{
         width: 50px;
         height: 50px;
     }
-    div.co
-    div.compra > img {
-        width: 60px;
-        height: 60px;
-
+    div.compra {
+        padding: 6px;
+        width: 100px;
+        height: 50px;
+    }
+    div.compra >  div > img {
+        width: 100%;
+        height:60 ;
+    }
+    main{
+        margin: auto;
+        width: 95vw;
+        display: inline-block;
+        
     }
 }
