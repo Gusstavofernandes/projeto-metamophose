@@ -144,13 +144,25 @@ menu > ul > li > a:hover{
         height: 50px;
     }
     div.compra {
-        padding: 6px;
-        width: 100px;
-        height: 50px;
+        display: inline-block;
+        background-color: blue;
+        width: 98%;
+        height: 400px;
     }
     div.compra >  div > img {
-        width: 100%;
-        height:60 ;
+        width: 49%;
+        display:inline-block;
+        background-color: blue;
+        height:60% ;
+    }
+    img#1i{
+        width: 68%;
+        display:inline-block;
+        background-color: blue;
+        height:60% ;
+    }
+    div.compra > div > p {
+        padding: 0px;
     }
     main{
         margin: auto;
