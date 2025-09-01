@@ -144,6 +144,8 @@ menu > ul > li > a:hover{
         height: 50px;
     }
     div.compra {
+        padding-top: 6px;
+        justify-content: space-evenly;
         display: inline-block;
         width: 98%;
         height: 400px;
