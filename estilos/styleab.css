@@ -248,6 +248,17 @@ menu > ul > li > a:hover{
         text-decoration: none;
         color: rgb(0, 0, 0);
     }
+    div.sessao{
+        margin-top: 2%;
+        float: none;
+        background-image:url(../imagens/puma-red-suede-l4zs8zqxo1v9h4y5.jpg);
+        width: 100vw;
+        height: 285px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        
+    }
     main{
         justify-content: center;
         padding: 0px;
