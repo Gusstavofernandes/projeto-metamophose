@@ -37,6 +37,7 @@ background-color: rgb(5, 5, 5);
 color: white;
 }
 menu{
+    font-family: 'Courier New', Courier, monospace;
     display: none;
     text-align: center;
 }
@@ -95,9 +96,10 @@ menu > ul > li > a:hover{
     padding-right: 0px;
     padding-left: 0px;
     justify-content: center;
-    width: 100vw;
+    width: 97vw;
     display: inline-block;
-    padding-top: 9px;
+    padding-top: 12px;
+    margin-top: 9px;
     color: rgb(0, 0, 0);
     background-color: rgb(228, 228, 228);
     height: 30px;
@@ -138,7 +140,7 @@ menu > ul > li > a:hover{
         height: 40px;
     }
     div.logo > a{
-        width: 99vw;
+        width: 97vw;
     }
     div.logo > a > img{
         padding-top: 3px;
@@ -146,7 +148,6 @@ menu > ul > li > a:hover{
         height: 50px;
     }
     div.compra {
-        background-color: blue;
         margin: auto;
         padding-top: 6px;
         justify-content: space-evenly;
@@ -155,8 +156,8 @@ menu > ul > li > a:hover{
         height: 400px;
     }
     div.compra >  div > img {
-        background-color: blue;
         margin: auto;
+        margin-left: 1px;
         justify-content: space-evenly;
         width: 49%;
         display:inline-block;
@@ -174,7 +175,7 @@ menu > ul > li > a:hover{
     main{
         padding: 0px;
         margin: auto;
-        width: 100vw;
+        width: 97vw;
         display: inline-block;
         
     }
