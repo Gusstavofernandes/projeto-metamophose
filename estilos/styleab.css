@@ -154,6 +154,7 @@ menu > ul > li > a:hover{
         height: 400px;
     }
     div.compra >  div > img {
+        border-radius: 9%;
         margin-left: 1%;
         padding-left: 1%;
         justify-content: center;
