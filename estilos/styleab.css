@@ -61,7 +61,6 @@ menu > ul > li > a:hover{
 }
     main{
     width: 100vw;
-    padding: 10px;
     }
     article{
     padding: 5px;
@@ -96,7 +95,7 @@ menu > ul > li > a:hover{
     padding-right: 0px;
     padding-left: 0px;
     justify-content: center;
-    width: 97vw;
+    width: 100vw;
     display: inline-block;
     padding-top: 12px;
     margin-top: 9px;
@@ -148,34 +147,34 @@ menu > ul > li > a:hover{
         height: 50px;
     }
     div.compra {
-        margin: auto;
         padding-top: 6px;
         justify-content: space-evenly;
         display: inline-block;
-        width: 100%;
+        width: 98%;
         height: 400px;
     }
     div.compra >  div > img {
-        margin: auto;
-        margin-left: 1px;
-        justify-content: space-evenly;
-        width: 49%;
+        margin-left: 1%;
+        padding-left: 1%;
+        justify-content: center;
+        width: 47%;
         display:inline-block;
         height:60% ;
     }
     img#1i{
-        width: 68%;
+        padding: 10px;
+        width: 61%;
         display:inline-block;
         height:60% ;
     }
     div.compra > div > p {
-        margin: auto;
+        text-align: center;
         padding: 0px;
     }
     main{
+        justify-content: center;
         padding: 0px;
-        margin: auto;
-        width: 97vw;
+        width: 100vw;
         display: inline-block;
         
     }
