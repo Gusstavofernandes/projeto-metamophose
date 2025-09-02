@@ -153,7 +153,7 @@ menu > ul > li > a:hover{
         width: 98%;
         height: 400px;
     }
-    div.compra >  div > img {
+    div.compra >  div > a > img {
         border-radius: 9%;
         margin-left: 1%;
         padding-left: 1%;
@@ -171,6 +171,32 @@ menu > ul > li > a:hover{
     div.compra > div > p {
         text-align: center;
         padding: 0px;
+    }
+    div.text{
+        margin: 0px;
+        width: 96vw;
+        padding-left: 3%;
+        display: inline-block;
+        margin: auto;
+    }
+    div.text > a#l1{
+        margin-left: 2%;
+        margin-right: 5%;
+        text-align: center;
+        width: 40vw;
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    div.text > a#l2{
+        text-align: center;
+        margin-left: 3.5%;
+        width: 40vw;
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
     }
     main{
         justify-content: center;
