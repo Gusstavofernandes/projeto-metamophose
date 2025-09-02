@@ -163,11 +163,17 @@ menu > ul > li > a:hover{
         display:inline-block;
         height:60% ;
     }
-    img#1i{
+    div.imagens > img#pi{
         padding: 10px;
         width: 61%;
         display:inline-block;
-        height:60% ;
+        height:10% ;
+    }
+   div.imagens > img#si{
+        padding: 10px;
+        width: 61%;
+        display:inline-block;
+        height:1% ;
     }
     div.compra > div > p {
         text-align: center;
@@ -182,7 +188,7 @@ menu > ul > li > a:hover{
     }
     div.text > a#l1{
         padding-top: 1%;
-        margin-left: 2%;
+        margin-left: 2.5%;
         padding-right: 3%;
         text-align: left;
         width: 40vw;
@@ -195,7 +201,7 @@ menu > ul > li > a:hover{
         padding-top: 1%;
         padding-right: 1%;
         text-align: left;
-        margin-left: 4%;
+        margin-left: 3.3%;
         width: 40vw;
         display: inline-block;
         text-decoration: none;
@@ -203,8 +209,9 @@ menu > ul > li > a:hover{
         font-family: 'Courier New', Courier, monospace;
     }
     div > a#m1{
-        padding-right: 32%;
-        text-align: center;
+        padding-right: 2.9%;
+        text-align: left;
+        width: 40vw;
         display: inline-block;
         margin-left: 5.5%;
         font-family: 'Courier New', Courier, monospace;
@@ -212,27 +219,34 @@ menu > ul > li > a:hover{
         color: rgb(77, 77, 77);
     }
     div > a#m2{
-        padding-right: 32%;
-        text-align: justify;
+        padding-right: 1%;
+        text-align: left;
+        width: 40vw;
         display: inline-block;
-        margin-left: 4%;
+        margin-left: 3.3%;
         font-family: 'Courier New', Courier, monospace;
         text-decoration: none;
         color: rgb(77, 77, 77);
     }
     div > a#v1{
-        padding-right: 32%;
+        padding-right: 2.9%;
+        text-align: left;
+        width: 40vw;
+        display: inline-block;
         margin-left: 5.5%;
-        color: black;
         font-family: 'Courier New', Courier, monospace;
         text-decoration: none;
+        color: rgb(0, 0, 0);
     }
     div > a#v2{
-        padding-right: 32%;
-        margin-left: 4%;
-        color: black;
+        padding-right: 1%;
+        text-align: left;
+        width: 40vw;
+        display: inline-block;
+        margin-left: 3.3%;
         font-family: 'Courier New', Courier, monospace;
         text-decoration: none;
+        color: rgb(0, 0, 0);
     }
     main{
         justify-content: center;
