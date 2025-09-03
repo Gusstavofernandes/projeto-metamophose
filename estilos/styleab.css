@@ -182,7 +182,7 @@ menu > ul > li > a:hover{
     div.text{
         margin: 0px;
         width: 96vw;
-        padding-left: 3%;
+        padding-left:3%;
         display: inline-block;
         margin: auto;
     }
@@ -195,18 +195,18 @@ menu > ul > li > a:hover{
         display: inline-block;
         text-decoration: none;
         color: black;
-        font-family: 'Courier New', Courier, monospace;
+        font-family:Arial, Helvetica, sans-serif;
     }
     div.text > a#l2{
         padding-top: 1%;
-        padding-right: 1%;
+        padding-right: 4%;
         text-align: left;
-        margin-left: 3.3%;
+        margin-left: 4%;
         width: 40vw;
         display: inline-block;
         text-decoration: none;
         color: black;
-        font-family: 'Courier New', Courier, monospace;
+        font-family:Arial, Helvetica, sans-serif;
     }
     div > a#m1{
         padding-right: 2.9%;
@@ -214,7 +214,7 @@ menu > ul > li > a:hover{
         width: 40vw;
         display: inline-block;
         margin-left: 5.5%;
-        font-family: 'Courier New', Courier, monospace;
+        font-family:Arial, Helvetica, sans-serif;
         text-decoration: none;
         color: rgb(77, 77, 77);
     }
@@ -223,8 +223,8 @@ menu > ul > li > a:hover{
         text-align: left;
         width: 40vw;
         display: inline-block;
-        margin-left: 3.3%;
-        font-family: 'Courier New', Courier, monospace;
+        margin-left: 4%;
+        font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
         color: rgb(77, 77, 77);
     }
@@ -234,7 +234,7 @@ menu > ul > li > a:hover{
         width: 40vw;
         display: inline-block;
         margin-left: 5.5%;
-        font-family: 'Courier New', Courier, monospace;
+        font-family:Arial, Helvetica, sans-serif;
         text-decoration: none;
         color: rgb(0, 0, 0);
     }
@@ -243,8 +243,8 @@ menu > ul > li > a:hover{
         text-align: left;
         width: 40vw;
         display: inline-block;
-        margin-left: 3.3%;
-        font-family: 'Courier New', Courier, monospace;
+        margin-left: 4%;
+        font-family:Arial, Helvetica, sans-serif;
         text-decoration: none;
         color: rgb(0, 0, 0);
     }
@@ -255,9 +255,28 @@ menu > ul > li > a:hover{
         width: 100vw;
         height: 285px;
         background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center center;
+        background-size:cover;
+        background-position: top center;
         
+    }
+    div.of{
+        font-size: 1.5em;
+        font-family: "Passion One", sans-serif ;
+        font-weight: 700;
+        margin-top: 2%;
+        margin-left: 5%;
+    }    
+    div.compra > div.ofer > a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+    }
+
+    div.compra > div.ofer > a > p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration:line-through;
+        color: rgb(87, 87, 87);
+        display:inline-block;
+        margin-left: 2px;
     }
     main{
         justify-content: center;
