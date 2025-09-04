@@ -116,11 +116,11 @@ div.model > img{
     display: inline-block;
 }
 p.tam{
-    background-color: aqua;
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 2.8%;
     margin-top: 3%;
+    color: rgb(187, 187, 0);
 }
  a.tab{
     background-color: aquamarine;
