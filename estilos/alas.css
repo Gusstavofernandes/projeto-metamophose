@@ -115,31 +115,29 @@ div.model > img{
     display: inline-block;
 }
 p.tam{
-    width: 100%;
+    width: 99%;
     background-color: rgb(255, 255, 255);
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 2.8%;
     margin-top: 3%;
 }
-p.tam > a{
+ a.tab{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     display: inline-block;
-    transform: translateY(-90%);
     color: black;
-    text-align: right;
     background-color: rgba(255, 255, 255, 0);
-    width: 96vw;
+    width: 100vw;
 }
-table.num{
+div > table.num{
     margin: 0px;
     padding: 0px;
     width: 100%;
     background-color: rgb(204, 204, 204);
 }
-table.num > tr > td{
-    margin: auto;
+div > table.num > tr > td{
     text-align: center;
-    margin: 5px;
 }
 }
