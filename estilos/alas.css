@@ -124,18 +124,13 @@ p.tam{
 }
  a.tab{
     background-color: aquamarine;
-    margin: 0px;
+    margin-left: 20%;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     display: inline-block;
     color: black;
 }
-div > table.num{
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(204, 204, 204);
-}
-div > table.num > tr > td{
-    text-align: center;
-}
+ a.tab > i.material-symbols-outlined{
+    
+ }
 }
