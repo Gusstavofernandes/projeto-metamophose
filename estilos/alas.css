@@ -7,7 +7,7 @@
     padding: 0px;
     }
     header{
-    background-color: rgb(247, 245, 245);
+    background-color: rgb(255, 255, 255);
     color: rgb(8, 8, 8);
     }
 header h1{
@@ -48,4 +48,26 @@ menu > ul > li > a:hover{
     background-color: rgb(5, 5, 5);
     color: rgb(241, 238, 238);
 }
+  div.men{ 
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    justify-content: center;
+    width: 100vw;
+    display: inline-block;
+    padding-top: 12px;
+    margin-top: 9px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 228, 228);
+    height: 30px;
+    text-align: center;
+    padding-bottom: 9px;
+    }
+    div.imggr{
+        width:100vw;
+        height: 400px;
+        background-image: url(../imagens/10017535.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     }
