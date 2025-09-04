@@ -132,13 +132,10 @@ p.tam > a{
     width: 96vw;
 }
 table.num{
-    margin-right: 5%;
-    margin: auto;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     background-color: rgb(204, 204, 204);
-}
-table.num > tr > {
-    margin: auto;
 }
 table.num > tr > td{
     margin: auto;
