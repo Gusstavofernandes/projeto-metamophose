@@ -131,4 +131,18 @@ p.tam > a{
     background-color: rgba(255, 255, 255, 0);
     width: 96vw;
 }
+table.num{
+    margin-right: 5%;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(204, 204, 204);
+}
+table.num > tr > {
+    margin: auto;
+}
+table.num > tr > td{
+    margin: auto;
+    text-align: center;
+    margin: 5px;
+}
 }
