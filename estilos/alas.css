@@ -130,7 +130,21 @@ p.tam{
     display: inline-block;
     color: black;
 }
- a.tab > i.material-symbols-outlined{
-    
- }
+ a.botao{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    width: 200px;
+    padding-bottom: 3px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 4px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255) solid;
+
+}
 }
