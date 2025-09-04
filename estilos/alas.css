@@ -48,7 +48,7 @@ menu > ul > li > a:hover{
     background-color: rgb(5, 5, 5);
     color: rgb(241, 238, 238);
 }
-  div.men{ 
+div.men{ 
     margin-right: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -62,12 +62,12 @@ menu > ul > li > a:hover{
     height: 30px;
     text-align: center;
     padding-bottom: 9px;
-    }
-    div.imggr{
-        width:100vw;
-        height: 400px;
-        background-image: url(../imagens/10017535.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+}
+div.imggr{
+    width:100vw;
+    height: 400px;
+    background-image: url(../imagens/10017535.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
     }
