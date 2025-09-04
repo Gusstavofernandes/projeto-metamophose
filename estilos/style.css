@@ -8,22 +8,23 @@
         padding: 0px;
     }
 header{
-    background-color: rgb(12, 12, 12);
-    color: white;
+    background-color: rgb(247, 245, 245);
+    color: rgb(0, 0, 0);
 }
 header h1{
+    font-family: "Passion One",sans-serif;
     text-align: center;
     padding: 20px;
 }
 i#burguer{
     padding: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     text-align: center;
 }
 i#burguer:hover{
-background-color: rgb(5, 5, 5);
-color: white;
+background-color: rgb(0, 0, 0);
+color: rgb(241, 241, 241);
 }
 menu{
     display: none;
@@ -36,15 +37,15 @@ menu > ul > li > a{
     display: block;
     padding: 10px;
     text-decoration:none;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 menu > ul > li >a:visited{
 text-decoration:none;
-color: white;
+color: rgb(0, 0, 0);
 
 }
 menu > ul > li > a:hover{
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(0, 0, 0);
     color: rgb(241, 238, 238);
 }
 main{
@@ -153,11 +154,11 @@ footer span.community{
     
     div.men{
     justify-content: center;
-    width: 96vw;
-    display: inline-flexbox;
+    width: 100vw;
+    display: inline-block;
     padding-top: 9px;
-    color: white;
-    background-color: rgb(12, 12, 12);
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 228, 228);
     height: 30px;
     text-align: center;
     padding-bottom: 9px;
