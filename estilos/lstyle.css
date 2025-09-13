@@ -1,27 +1,64 @@
 @charset "UTF-8";
-*{
-    padding: 0px;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+@media screen and (max-width:992px)
+{
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
 header{
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(247, 245, 245);
+    color: rgb(0, 0, 0);
+}
+header h1{
+    font-family: "Passion One",sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+i#burguer{
     padding: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-align: center;
+}
+i#burguer:hover{
+background-color: rgb(0, 0, 0);
+color: rgb(241, 241, 241);
 }
 menu{
     display: none;
+    text-align: center;
 }
-menu >ul > li > a{
-    color: white;
-    text-decoration: none;
+menu > ul {
+    list-style-type: none;
+}
+menu > ul > li > a{
     display: block;
-}
-
-i#burguer{
     padding: 10px;
-    color: white;
-    cursor: pointer;
+    text-decoration:none;
+    color:rgb(0, 0, 0);
 }
+menu > ul > li >a:visited{
+text-decoration:none;
+color: rgb(0, 0, 0);
+
+}
+menu > ul > li > a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(241, 238, 238);
+}
+a > i#shop{
+    color: black;
+    padding: 10px;
+}
+a:hover > i#shop{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+a:visited > i#shop{
+    text-decoration: none;
+    background-color: black;
+}c
 main{
     position: relative;
     background-color: rgb(245, 245, 245);
@@ -52,4 +89,5 @@ main a{
 main > section > p > a{
     margin: auto;
     text-align: center;
+}
 }
