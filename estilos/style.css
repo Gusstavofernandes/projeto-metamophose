@@ -48,6 +48,18 @@ menu > ul > li > a:hover{
     background-color: rgb(0, 0, 0);
     color: rgb(241, 238, 238);
 }
+a >  i#account {
+    color: black;
+    padding: 10PX;
+}
+a:hover > i#account {
+    background-color: black;
+    color: white;
+}
+a:visited > i#account{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+}
 main{
     width: 100vw;
     padding: 10px;
