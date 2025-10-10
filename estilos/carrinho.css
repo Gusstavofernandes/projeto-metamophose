@@ -76,4 +76,10 @@ a:visited > i#account{
     font-size: medium;
     overflow: hidden;
     }
+    h2{
+        text-align: center;
+        color: black;
+        padding-top: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
