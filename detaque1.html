@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Destaque</title>
 </head>
-<body>
-    <h1>TESTE</h1>
-    
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Metamorphose Store</h1>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i> 
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Oversized</a></li>
+                <li><a href="#">Bermudas</a></li>
+                <li><a href="calcados.html">Calçados</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="conta.html">Conta</a></li>
+            </ul>
+        </menu>
+        <a href="conta.html"><i id="account" class="material-symbols-outlined">account_circle</i></a>
+        <a href="carrinho.html"><i id="shop" class="material-symbols-outlined">shopping_cart</i></a>
+        <div class="men">
+            <p>TESTE</p>
+        </div>
+    </header>
+    <script>
+        function clickMenu(){
+            if (itens.style.display =='block') {
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+                }
+
+        }
+        function mudouTamanho(){
+            if (window.innerWidth >=992){
+                itens.style.display ='block'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>
