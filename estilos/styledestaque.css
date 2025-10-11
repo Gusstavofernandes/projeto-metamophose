@@ -1,0 +1,331 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Passion+One:wght@400;700;900&family=Rubik+Vinyl&family=Shadows+Into+Light&display=swap');
+@media screen and (max-width:992px)
+{
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+header{
+    background-color: rgb(247, 245, 245);
+    color: rgb(0, 0, 0);
+}
+header h1{
+    font-family: "Passion One",sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+i#burguer{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-align: center;
+}
+i#burguer:hover{
+background-color: rgb(0, 0, 0);
+color: rgb(241, 241, 241);
+}
+menu{
+    display: none;
+    text-align: center;
+}
+menu > ul {
+    list-style-type: none;
+}
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+}
+menu > ul > li >a:visited{
+text-decoration:none;
+color: rgb(0, 0, 0);
+
+}
+menu > ul > li > a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(241, 238, 238);
+}
+a >  i#account {
+    color: black;
+    padding: 10PX;
+}
+a:hover > i#account {
+    background-color: black;
+    color: white;
+}
+a:visited > i#account{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+}
+a > i#shop{
+    color: black;
+    padding: 10px;
+}
+a:hover > i#shop{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+a:visited > i#shop{
+    text-decoration: none;
+    background-color: black;
+}
+ div.men{
+    justify-content: center;
+    width: 100vw;
+    display: inline-block;
+    padding-top: 9px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 228, 228);
+    height: 30px;
+    text-align: center;
+    padding-bottom: 9px;
+    }
+    div.men > p{
+        margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    overflow: hidden;
+    }
+     div#destq1{
+        margin-top: 2%;
+        background-image: url(../imagens/grupo-de-pessoas-que-se-exercitam-juntas-ao-ar-livre.jpg);
+        width: 100vw;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div.caminho > p{
+        margin-left: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+        padding-top: 10px;
+        padding-right: 0px;
+        margin-right: 0px;
+        color: rgb(121, 121, 121);
+    }
+    div.caminho   p > a{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: black;
+
+    }
+    div.caminho  p > a:visited{
+        text-decoration: none;
+        color: black;
+    }
+    div.caminho   p > a:hover{
+        text-decoration: none;
+        color: rgb(105, 105, 105);
+    }
+    div.texto > h1{
+        text-align: center;
+        color: rgb(10, 10, 10);
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;;
+    }
+    div.texto > p{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 0, 0);
+        font-size: larger;
+        padding: 10px;
+    }
+    div.texto >div.button{
+        width: 20%;
+        height: 60px;
+        margin: auto;
+    }
+    div.texto > div.button > a{
+    background-color:black;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    font-family: "Passion One",sans-serif;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 5px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 7px;
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    }
+    div.container{
+        display: flex;
+        height: 100px;
+        justify-content: space-evenly;
+        background-color: rgb(255, 255, 255);
+
+    }
+    div.item#img1{
+        background-image: url(../imagens/skate-parkadolescentes-no-skate-park.jpg);
+        background-color: rgb(255, 255, 255);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 96vw;
+        height: 680px;
+        justify-content: center;
+        background-position: center center;
+    }
+    div.item#img2{
+        display: none;
+    }
+    div.item#img3{
+        display: none;
+    }
+    div.texto#texto2{
+        margin-top: 585px;
+        display: block;
+    }
+    div.texto#texto2 >h1{
+        margin: auto;
+        text-align: center;
+    }
+        div.texto#texto2 >p{
+        margin: auto;
+        text-align: center;
+    }
+    div.aldest1 {
+        padding-top: 6px;
+        justify-content: space-evenly;
+        display: inline-block;
+        width: 98%;
+        height: 90%;
+    }
+    div.aldest1 >  div > a > img {
+        margin-left: 1%;
+        padding-left: 1%;
+        justify-content: center;
+        width: 47%;
+        display:inline-block;
+        height:60% ;
+    }
+    div.imagens > img#pi{
+        padding: 10px;
+        width: 61%;
+        display:inline-block;
+        height:10% ;
+    }
+   div.imagens > img#si{
+        padding: 10px;
+        width: 61%;
+        display:inline-block;
+        height:1% ;
+    }
+    div.aldest1 > div > p {
+        text-align: center;
+        padding: 0px;
+    }
+     div.text{
+        padding-top: 2%;
+        margin: 0px;
+        width: 96vw;
+        padding-left:3%;
+        display: inline-block;
+        margin: auto;
+    }
+    div.text > a#l1{
+        padding-top: 1%;
+        margin-left: 2.5%;
+        padding-right: 3%;
+        text-align: left;
+        width: 40vw;
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    div.text > a#l2{
+        padding-top: 1%;
+        padding-right: 4%;
+        text-align: left;
+        margin-left: 4%;
+        width: 40vw;
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    div > a#m1{
+        padding-top: 1%;
+        padding-right: 2.9%;
+        text-align: left;
+        width: 40vw;
+        display: inline-block;
+        margin-left: 5.5%;
+        font-family:Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: rgb(77, 77, 77);
+    }
+    div > a#m2{
+        padding-top: 1%;
+        padding-right: 1%;
+        text-align: left;
+        width: 40vw;
+        display: inline-block;
+        margin-left: 4%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: rgb(77, 77, 77);
+    }
+    div > a#v1{
+        padding-bottom: 4%;
+        padding-top: 1%;
+        padding-right: 2.9%;
+        text-align: left;
+        width: 40vw;
+        display: inline-block;
+        margin-left: 5.5%;
+        font-family:Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    div > a#v2{
+        padding-bottom: 4%;
+        padding-top: 1%;
+        padding-right: 1%;
+        text-align: left;
+        width: 40vw;
+        display: inline-block;
+        margin-left: 4%;
+        font-family:Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    div.sessao{
+        margin-top: 2%;
+        float: none;
+        background-image:url(../imagens/puma-red-suede-l4zs8zqxo1v9h4y5.jpg);
+        width: 100vw;
+        height: 285px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: top center;
+        
+    }
+    div.of{
+        font-size: 1.5em;
+        font-family: "Passion One", sans-serif ;
+        font-weight: 700;
+        margin-top: 2%;
+        margin-left: 5%;
+    }    
+    div.compra > div.ofer > a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+    }
+
+    div.compra > div.ofer > a > p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration:line-through;
+        color: rgb(87, 87, 87);
+        display:inline-block;
+        margin-left: 2px;
+    }
+}
