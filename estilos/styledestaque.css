@@ -328,4 +328,13 @@ a:visited > i#shop{
         display:inline-block;
         margin-left: 2px;
     }
+    div#destq2{
+        margin-top: 2%;
+        background-image: url(../imagens/skate-parkgrande.jpg);
+        width: 100vw;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
 }
