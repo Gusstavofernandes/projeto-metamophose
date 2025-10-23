@@ -89,6 +89,9 @@ footer{
     padding: 20px;
     text-align: center;
     margin: 0px;
+    text-decoration:none;
+}
+footer a{
     text-decoration: none;
 }
 footer a:visited{
@@ -97,12 +100,12 @@ footer a:visited{
     padding: 20px;
     text-align: center;
     margin: 0px;
-    text-decoration: none;
+    text-decoration:none;
 }
 footer span.community{
     padding: 10px;
     color: white;
-    text-decoration: none;
+    text-decoration:none;
 }
 
 
