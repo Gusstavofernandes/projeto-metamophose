@@ -157,7 +157,6 @@ p.tam{
     color: black;
 }
  a.botao{
-    margin-right: 30px;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     text-align: center;
@@ -167,7 +166,7 @@ p.tam{
     height: 40px;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    margin: 4px;
+    margin: 15px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     border: 1px rgb(255, 255, 255) solid;
@@ -184,8 +183,12 @@ table.numeros{
     width: 90vw;
 }
 td{
-    border: 2px solid black;
+    border: 2px solid rgb(31, 31, 31);
     border-collapse:collapse;
     cursor: pointer;
+}
+td.num:hover{
+    background-color: rgb(199, 199, 199);
+    color: rgb(22, 22, 22);
 }
 }

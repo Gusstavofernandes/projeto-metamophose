@@ -29,7 +29,7 @@
     <main>
         <h1 class="title">Tênis New Balance 480 Low Classico Cano Baixo Nb</h1>
         <p class="caminho">Adulto/ Casual</p>
-        <p class="prize">R$399.99</p> 
+        <p class="prize">R$399,99</p> 
         <div class="imggr">
             <img src="../imagens/nb grande.png" alt="">
         </div>
@@ -41,15 +41,15 @@
         <p class="tam">Tamanhos:</p>
         <table class="numeros">
             <tr>
-                <td>36</td>
-                <td>37</td>
-                <td>38</td>
-                <td>39</td>
-                <td>40</td>
-                <td>41</td>
+                <td class="num" onclick="clckTamanho()">36</td>
+                <td class="num">37</td>
+                <td class="num">38</td>
+                <td class="num">39</td>
+                <td class="num">40</td>
+                <td class="num">41</td>
             </tr>
         </table>
-        <a href="../carrinho.html" class="botao"><P>Comprar</P></a>
+        <a href="../carrinho.html" class="botao" onclick="clickComprar()"><P>Comprar</P></a>
     </main>
     <script>
         function clickMenu(){
@@ -66,7 +66,9 @@
             } else{
                 itens.style.display = 'none'
             }
-            
+        }
+        function clickComprar(){
+            window.alert('deseja adicionar item ao carrinho')
         }
     </script>
 </body>
