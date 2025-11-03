@@ -6,9 +6,13 @@ let active = 0;
 const total = items.length
 let timer;
 
+function update(direction){
+    document.querySelector('.text.active').classList.remove('active')
+}
+
 prevButton.addEventListener('click', function(){
-    alert("prev")
+    update(-1)
 })
 nextButton.addEventListener('click', function(){
-    alert("NEXT")
+    update(1)
 })
