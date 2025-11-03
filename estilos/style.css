@@ -72,6 +72,30 @@ a:visited > i#shop{
     text-decoration: none;
     background-color: black;
 }
+.arrows{
+    height:50px;
+    width: 100vw;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%); 
+}
+.arrow{
+    width: 30px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+    border: none;
+}
+.arrow:hover{
+    background-color: rgb(194, 194, 194);
+}
+.text{
+    margin-top: 16px;
+}
 main{
     width: 100vw;
     padding: 10px;
@@ -108,9 +132,7 @@ footer span.community{
     text-decoration:none;
 }
 
-
-
-    div.main{
+div.main{
     display: inline-flexbox;
     margin: 0px;
     height: 100vh;
@@ -120,17 +142,16 @@ footer span.community{
     text-align: center;
     overflow: hidden;
     margin: auto;
-    }
-    div#img{
-    margin-top: 2px;
+}
+ div#img{
+    margin: 43px auto auto auto;
     padding-top: 3px;
     position: relative;
     background: lightgray url(../imagens/grupo-de-pessoas-que-se-exercitam-juntas-ao-ar-livre.jpg) no-repeat;
     background-size: cover;
     background-position: top center;
-    width: 96vw;
+    width: 99vw;
     height: 500px;
-    margin: auto;
     overflow: hidden;
     }
     div#img > h1{
@@ -178,23 +199,9 @@ footer span.community{
     text-decoration: none;
     color: rgb(0, 0, 0);
     }
-    
-    div.men{
-    justify-content: center;
-    width: 100vw;
-    display: inline-block;
-    padding-top: 9px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(228, 228, 228);
-    height: 30px;
-    text-align: center;
-    padding-bottom: 9px;
     }
-    div.men > p{
-        margin: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    overflow: hidden;
+    div.text{
+        display: inline-block;
     }
     div.texto > h1{
         text-align: center;
@@ -298,4 +305,4 @@ footer span.community{
         text-decoration: none;
         color: rgb(105, 105, 105);
     }
-}
+
