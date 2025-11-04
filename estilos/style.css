@@ -175,7 +175,7 @@ div.main{
     margin: 0px;
     height: 100vh;
     background-color: rgb(255, 255, 255);
-    width: 97vw;
+    width: 100vw;
     justify-content: flex-start;
     text-align: center;
     overflow: hidden;
