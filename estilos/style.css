@@ -88,7 +88,7 @@ a:visited > i#shop{
     display: flex;
     justify-content: space-between;
     top: 140px;
-    left: 49%;
+    left: 50%;
     transform: translate(-50%,-50%); 
 }
 .arrow{
