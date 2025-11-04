@@ -119,10 +119,13 @@ a:visited > i#shop{
     align-items: center;
 }
 .list > p{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    display: flex;
     align-items: center;
 }
 .text{
-    
     position: absolute;
     inset: 0;
     display: flex;
