@@ -73,8 +73,9 @@ a:visited > i#shop{
     background-color: black;
 }
 .arrows{
+    margin: 0px;
     height:50px;
-    width: 100vw;
+    width: 97vw;
     background-color: rgb(224, 224, 224);
     position: absolute;
     display: flex;
@@ -84,10 +85,12 @@ a:visited > i#shop{
     transform: translate(-50%,-50%); 
 }
 .arrow{
+    background-color: rgb(224, 224, 224);
+    margin: 0px;
+    padding: 0px;
     width: 30px;
     height: 50px;
     cursor: pointer;
-    background-color: rgb(224, 224, 224);
     border: none;
 }
 .arrow:hover{
@@ -97,13 +100,17 @@ a:visited > i#shop{
     text-align: center;
     margin-top: 16px;
     opacity: 100;
-    width: 99vw;
+    width: 90vw;
 }
 .list{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     position: relative;
-
+    display: flex;
+    align-items: center;
+}
+.list > p{
+    align-items: center;
 }
 .text{
     
@@ -119,8 +126,8 @@ a:visited > i#shop{
 }
 }
 main{
-    width: 100vw;
-    padding: 10px;
+    width: 97vw;
+    padding: 0px;
 }
 article{
     padding: 5px;
@@ -159,7 +166,7 @@ div.main{
     margin: 0px;
     height: 100vh;
     background-color: rgb(255, 255, 255);
-    width: 98vw;
+    width: 97vw;
     justify-content: flex-start;
     text-align: center;
     overflow: hidden;
@@ -172,7 +179,7 @@ div.main{
     background: lightgray url(../imagens/grupo-de-pessoas-que-se-exercitam-juntas-ao-ar-livre.jpg) no-repeat;
     background-size: cover;
     background-position: top center;
-    width: 99vw;
+    width: 97vw;
     height: 500px;
     overflow: hidden;
     }
@@ -220,7 +227,6 @@ div.main{
     margin: 7px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    }
     }
     div.text{
         display: inline-block;
